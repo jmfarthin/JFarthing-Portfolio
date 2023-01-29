@@ -1,5 +1,5 @@
-#JFarthing Portfolio
+# JFarthing Portfolio
 
-##Description
+## Description
 
 This project is the landing page for my portfolio of web development projects to date.
