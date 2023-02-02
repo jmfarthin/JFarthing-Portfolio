@@ -1,16 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
+    /* background-color: #979DAC; */
+    background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family: gloria hallelujah;
     line-height: 1.5;
+    background-image: url("./images/wood-paneling.png");
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #0353A4;
+}
 
 .nav-section {
     width: 100%;
@@ -21,9 +37,7 @@ header {
     /* background-color: aliceblue; */
 }
 
-@media screen {
-    
-}
+/* @media screen {} */
 
 nav {
     width: 40%;
@@ -40,14 +54,29 @@ nav ul {
 
 nav ul li {
     padding: 15px;
+    font-size: 125%;
+    color: black;
+    text-shadow: ;
 }
 
 .introduction {
-    height: 30%;
-    padding: 50px 200px;
+    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+
+.introduction,
+.about-me,
+.my-projects {
+    background-color: rgba(245, 245, 245, 0.404);
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: -2px 1px 15px -1px #5C677D;
+
 }
 
 .introduction div {
@@ -56,17 +85,11 @@ nav ul li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 5px solid rgba(128, 128, 128, 0.507);
+    /* border-bottom: 5px solid #002855; */
 }
 
 .my-name {
-    font-size: 150%;
-}
-
-h1,
-h2,
-h3 {
-    padding: 10px;
+    /* font-size: 150%; */
 }
 
 h1 {
@@ -77,15 +100,17 @@ h2 {
     font-size: 150%;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-    border-radius: 20%;
-    border: 3px solid black;
+.introduction img {
+    height: 300px;
+    width: 300px;
+    border: 5px solid antiquewhite;
+    /* border-radius: 5px; */
+    box-shadow: -2px 1px 15px -1px #5C677D;
+    transform: rotateZ(-5deg);
 }
 
 .main-section {
-    padding: 40px;
+    padding: 40px 0 0 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -93,9 +118,61 @@ img {
 }
 
 .about-me {
-    padding: 0 50px 50px 50px;
+    padding: 0 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    height: 30vh;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: -2px 1px 15px -1px #5C677D;
+}
+
+.my-projects {
+    margin: 40px 0;
+}
+
+.project-one {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-projects ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.my-projects li {
+    padding: 20px;
+}
+
+.my-projects h3 {
+    position: absolute;
+    align-self: flex-start;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    max-width: 25%;
+    height: auto;
+}
+
+.contact-section {
+    display: flex;
+}
+
+.contact-section ul {
+    display: flex;
+    justify-content: space-between;
 }
