@@ -18,11 +18,11 @@ Repository: https://github.com/jmfarthin/JFarthing-Portfolio.git
 
 Screenshots of deployed website:
 
-![Portfolio website shot 1](./assets/images/farthing-portfolio1.png)
-![Porfolio website shot 2](./assets/images/farthing-portfolio2.png)
-![Porfolio website shot 3](./assets/images/farthing-portfolio3.png)
-![Porfolio website shot 4](./assets/images/farthing-portfolio4.png)
-![Porfolio website shot 5](./assets/images/farthing-portfolio5.png)
+![Portfolio website fullscreen 1](./assets/images/farthing-portfolio1.png)
+![Porfolio website fullscreen 2](./assets/images/farthing-portfolio2.png)
+![Porfolio website fullscreen 3](./assets/images/farthing-portfolio3.png)
+![Porfolio website fullscreen 4](./assets/images/farthing-portfolio4.png)
+![Porfolio website mobile](./assets/images/farthing-portfolio5.png)
 
 ## Credits
 
