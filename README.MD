@@ -4,10 +4,10 @@
 
 This project is the landing page for my portfolio of web development projects to date. It's purpose is to showcase my current knowledge of website building and to highlight certain proficiencies such as:
 
--semantic HTML
--CSS selectors and variables
--Flexbox
--media queries and responsive design
+- Semantic HTML
+- CSS selectors and variables
+- Flexbox
+- Media queries and responsive design
 
 ## Usage
 
@@ -16,7 +16,7 @@ To view portfolio website, visit: https://jmfarthin.github.io/JFarthing-Portfoli
 Repository: https://github.com/jmfarthin/JFarthing-Portfolio.git
 
 
-Screenshots of deployed website:
+### Screenshots of deployed website:
 
 ![Portfolio website fullscreen 1](./assets/images/farthing-portfolio1.png)
 ![Porfolio website fullscreen 2](./assets/images/farthing-portfolio2.png)
@@ -26,13 +26,13 @@ Screenshots of deployed website:
 
 ## Credits
 
-Images:
+### Images:
 
--GitHub icon provided by GitHub
--LinkedIn icon provided by LinkedIn
--Calculater image by Pixabay: https://www.pexels.com/photo/scientific-calculator-on-wooden-surface-220301/
--Password image by Miguel Á. Padriñán: https://www.pexels.com/photo/close-up-shot-of-keyboard-buttons-2882630/
--Rubik's puzzle image by Pavel Danilyuk: https://www.pexels.com/photo/3d-rubik-s-cube-in-close-up-photography-7776206/
+- GitHub icon provided by GitHub
+- LinkedIn icon provided by LinkedIn
+- Calculater image by Pixabay: https://www.pexels.com/photo/scientific-calculator-on-wooden-surface-220301/
+- Password image by Miguel Á. Padriñán: https://www.pexels.com/photo/close-up-shot-of-keyboard-buttons-2882630/
+- Rubik's puzzle image by Pavel Danilyuk: https://www.pexels.com/photo/3d-rubik-s-cube-in-close-up-photography-7776206/
 
 ## License
 
