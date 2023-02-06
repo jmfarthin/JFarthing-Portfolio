@@ -2,94 +2,24 @@ html {
     box-sizing: border-box;
 }
 
+/* sets variables for commonly used colors for easy adjustment later */
+:root {
+    --light-color: white;
+    --shadow-color: #5C677D;
+    --dark-color: black;
+    --cool-color: #023E7D;
+    --gray-color: #979DAC;
+}
+
+/* general styling for body and major headings */
 body {
-    /* background-color: #979DAC; */
-    background-color: white;
+    font-size: 24px;
+    background-color: var(--light-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: gloria hallelujah;
+    font-family: roboto, sans-serif;
     line-height: 1.5;
-    background-image: url("./images/wood-paneling.png");
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: #0353A4;
-}
-
-.nav-section {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    /* background-color: aliceblue; */
-}
-
-/* @media screen {} */
-
-nav {
-    width: 40%;
-    /* background-color: aqua; */
-}
-
-nav ul {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly
-}
-
-nav ul li {
-    padding: 15px;
-    font-size: 125%;
-    color: black;
-    text-shadow: ;
-}
-
-.introduction {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 60vh;
-}
-
-.introduction,
-.about-me,
-.my-projects {
-    background-color: rgba(245, 245, 245, 0.404);
-    width: 100%;
-    max-width: 1000px;
-    border-radius: 10px;
-    box-shadow: -2px 1px 15px -1px #5C677D;
-
-}
-
-.introduction div {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    /* border-bottom: 5px solid #002855; */
-}
-
-.my-name {
-    /* font-size: 150%; */
 }
 
 h1 {
@@ -100,79 +30,214 @@ h2 {
     font-size: 150%;
 }
 
-.introduction img {
-    height: 300px;
-    width: 300px;
-    border: 5px solid antiquewhite;
-    /* border-radius: 5px; */
-    box-shadow: -2px 1px 15px -1px #5C677D;
-    transform: rotateZ(-5deg);
-}
 
-.main-section {
-    padding: 40px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.about-me {
-    padding: 0 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 30vh;
+/* styling for header and nav elements */
+header {
     width: 100%;
-    max-width: 1000px;
-    border-radius: 10px;
-    box-shadow: -2px 1px 15px -1px #5C677D;
+    display: flex;
+    justify-content: center;
 }
 
-.my-projects {
+nav {
     margin: 40px 0;
 }
 
-.project-one {
-    padding: 20px 0;
+nav ul li {
+    display: inline-block;
+}
+
+/* the next three blocks set the link font color and add a hover effect */
+nav a,
+.my-projects h3,
+.contact-link {
+    color: var(--dark-color);
+    padding: 0 15px;
+}
+
+nav a:visited,
+.my-projects h3:visited,
+.contact-link:visited {
+    color: var(--dark-color);
+}
+
+nav a:hover,
+.my-projects h3:hover,
+.contact-link:hover {
+    color: var(--light-color);
+    background-color: var(--cool-color);
+    border-radius: 10px;
+    box-shadow: -2px 1px 15px -1px var(--shadow-color);
+}
+
+/* styling for the major content sections starts here */
+.introduction {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.introduction img {
+    margin-top: 30px;
+    min-width: 200px;
+    max-width: 35%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -2px 1px 15px -1px var(--shadow-color);
+}
+
+
+.introduction h1,
+.introduction p {
+    margin: 20px 20px 0 20px;
+    text-align: center;
+}
+
+.introduction p {
+    margin-bottom: 20px;
+}
+
+.introduction,
+.about-me,
+.my-projects {
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: -2px 1px 15px -1px var(--shadow-color);
+}
+
+.about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.my-projects ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.about-me h2,
+.about-me div {
+    margin: 20px 20px 0px 20px;
 }
 
-.my-projects li {
-    padding: 20px;
+.about-me div {
+    margin-bottom: 20px;
+}
+
+.about-me p:first-child {
+    margin-bottom: 20px;
+}
+
+.my-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.secondary-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-projects a {
+    margin: 20px 0px 20px 0;
+    min-width: 200px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.my-projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -2px 1px 15px -1px var(--shadow-color);
 }
 
 .my-projects h3 {
     position: absolute;
-    align-self: flex-start;
+    align-self: flex-end;
+    bottom: 10px;
+    background-color: var(--gray-color);
+    border-radius: 10px 0 0 10px;
 }
 
+/* styling for the footer section */
 footer {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-footer img {
-    max-width: 25%;
-    height: auto;
 }
 
 .contact-section {
+    margin-bottom: 40px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.contact-section ul {
+.contact-section h4 {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.contact-list {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list li {
+    margin: 10px;
+}
+
+.contact-list img {
+    width: 75px;
+    height: auto;
+}
+
+.contact-list li:last-child {
+    padding-left: 10px;
+}
+
+.copyright-section {
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+}
+
+/* The media queries allow the website to be responsive for all screen sizes */
+/* Turns nav bar into a column for smaller mobile devices */
+@media(max-width: 374px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Adjusts project content for larger screens */
+@media (min-width: 620px) {
+    .secondary-projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .secondary-projects a {
+        min-width: 285px;
+        max-width: 42.5%;
+    }
+}
+
+/* Adjusts contact section for larger screens  */
+@media (min-width: 500px) {
+    .contact-section {
+        margin: 0 20px 30px 20px;
+        border-bottom: 3px solid rgba(128, 128, 128, 0.507);
+    }
+
+    .contact-list {
+        flex-direction: row;
+    }
 }

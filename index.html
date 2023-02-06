@@ -1,4 +1,4 @@
-<!-- To do: Create a responsive landing page for my professional portfolio -->
+<!-- Landing page for my professional portfolio -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,99 +7,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JFarthing Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Raleway:ital,wght@1,700&display=swap"
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets\reset.css" />
     <link rel="stylesheet" href="./assets\style.css" />
 </head>
 
 <body>
-
-    <!-- Header contains navbar, deveoper image, and introduction-->
     <header>
         <!-- Nav with links to all other sections of landing page -->
-        <section class="nav-section">
-            <nav>
-                <ul>
-                    <li><a href="#about">about me</a></li>
-                    <li><a href="#my-work">my work</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav>
+            <ul>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#my-work">my work</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- This section includes developer headshot and intro -->
     <section class="introduction">
-        <img src="./assets\images\jfarthing-portfolio.jpg" alt="headshot">
-        <div>
-            <h1>Howdy! My name is <span class="my-name">Justin Farthing</span></h1>
-            <h2>Welcome to my web devoloper portfolio!</h2>
-        </div>
+        <img src="./assets/images/jfarthing-headshot.png" alt="headshot">
+        <h1>Howdy, my name is Justin Farthing.</h1>
+        <p>I am a future web developer.</p>
     </section>
-    <!-- To do: Create About me article to include image of me-->
-    <section class="main-section">
-        <article class="about-me" id="about">
-            <h2>About Me</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt optio ea alias modi explicabo,
-                    quam ipsam minima reiciendis incidunt laborum aspernatur odit maiores unde asperiores id!
-                    Repellat adipisci tempore reprehenderit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error expedita minus excepturi quisquam
-                    odio omnis reprehenderit deserunt suscipit laborum est enim minima voluptas repellat,
-                    exercitationem, quas similique? Itaque, eum deleniti?</p>
-            </div>
-        </article>
 
-        <!-- To do: Create section with titled images of my applications
-    -the first one should be the largest
-    -they should be links to the completed applications
-    -use placeholder images and names if no completed apps -->
+    <!-- About me section-->
+    <article class="about-me" id="about">
+        <h2>About Me</h2>
+        <div>
+            <p>I've just started my journey to becoming a web developer and this website marks the first major
+                milestone--a portfolio page! I will continue to update it as I amass additional projects and add to
+                current ones.</p>
+            <p>When I am not studying and practicing new coding skills, I like to cook for my family, play some Destiny
+                2, and make funny faces with my one-year-old. I have a background in management, sales, and teaching,
+                which I hope will translate into some unique perspectives for problem-solving and communication.
+            </p>
+        </div>
+    </article>
 
-        <section class="my-projects" id="my-work">
-            <div class="project-one">
-                <h3>first project</h3>
-                <a href="#firstprolink"><img src="./assets\images\default-image.jpg" alt="blank"></a>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <h3>Second project</h3>
-                        <a href="#secondprolink"><img src="./assets\images\default-image.jpg" alt="blank"></a>
-                    </li>
-                    <li>
-                        <h3>Third project</h3>
-                        <a href="#thirdprolink"><img src="./assets\images\default-image.jpg" alt="blank"></a>
-                    </li>
-                    <li>
-                        <h3>Fourth project</h3>
-                        <a href="#fourthprolink"><img src="./assets\images\default-image.jpg" alt="blank"></a>
-                    </li>
-                    <li>
-                        <h3>Fifth project</h3>
-                        <a href="#fifthprolink"><img src="./assets\images\default-image.jpg" alt="blank"></a>
-                    </li>
-                </ul>
-            </div>
+    <!-- This section contains all of the project content -->
+    <section class="my-projects" id="my-work">
+        <h2>My Projects</h2>
+        <a class="project-one" target="_blank" href="https://jmfarthin.github.io/horiseon-code-refactor/">
+
+            <img src="./assets/images/horiseon1.png" alt="horiseon-website">
+            <h3>Horiseon Code Refactor</h3>
+        </a>
+        <section class="secondary-projects">
+            <a href="https://jmfarthin.github.io/prework-study-guide/"><img
+                    src="./assets/images/bootcamp-studyguide.png" alt="studyguide-website">
+                <h3>Bootcamp Studyguide</h3>
+            </a>
+            <a href="#calculator-app"><img src="./assets/images/calculator-app.jpg" alt="calculator-app">
+                <h3>Calculator App</h3>
+            </a>
+            <a href="#password-app"><img src="./assets/images/password-app.jpg" alt="password-app">
+                <h3>Password App</h3>
+            </a>
+            <a href="#puzzle-app"><img src="./assets/images/rubiks-puzzle.jpg" alt="puzzle-app">
+                <h3>Puzzle App</h3>
+            </a>
         </section>
     </section>
-    <!-- Create footer that contains a contact me section and copyright info -->
+
+    <!-- Footer section -->
     <footer>
         <section class="contact-section" id="contact">
-            <h2>Contact me</h2>
-            <ul>
-                <li> <a href="mailto: jmfarthin@radford.edu">jmfarthin@radford.edu</a></li>
-                <li>444.555.4567</li>
-                <li><a href="https://github.com/jmfarthin/"><img src="./assets\images\github-mark.png"
+            <h4>Contact</h4>
+            <ul class="contact-list">
+                <li> <a class="contact-link" href="mailto: jmfarthin@radford.edu">Email</a></li>
+                <li><a class="contact-link" href="tel:444.444.4444">Call</a></li>
+                <li><a target="_blank" href="https://github.com/jmfarthin/"><img src="./assets\images\github-mark.png"
                             alt="github logo"></a></li>
                 <li>
-                    <a href="https://www.linkedin.com/in/justin-farthing"><img src="./assets\images\LI-In-Bug.png"
-                            alt="linkedin link image"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/justin-farthing"><img
+                            src="./assets\images\LI-In-Bug.png" alt="linkedin link image"></a>
                 </li>
             </ul>
-            </div>
         </section>
-        <section>
+        <section class="copyright-section">
             <p>© Justin Farthing 2023</p>
         </section>
     </footer>
