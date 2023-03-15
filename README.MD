@@ -18,11 +18,11 @@ Repository: https://github.com/jmfarthin/JFarthing-Portfolio.git
 
 ### Screenshots of deployed website:
 
-![Portfolio website fullscreen 1](./assets/images/farthing-portfolio1.png)
-![Porfolio website fullscreen 2](./assets/images/farthing-portfolio2.png)
-![Porfolio website fullscreen 3](./assets/images/farthing-portfolio3.png)
-![Porfolio website fullscreen 4](./assets/images/farthing-portfolio4.png)
-![Porfolio website mobile](./assets/images/farthing-portfolio5.png)
+![Portfolio website fullscreen 1](./assets/images/portfolio1.png)
+![Porfolio website fullscreen 2](./assets/images/portfolio2.png)
+![Porfolio website fullscreen 3](./assets/images/portfolio3.png)
+![Porfolio website mobile](./assets/images/portfolio4.png)
+
 
 ## Credits
 
@@ -32,7 +32,6 @@ Repository: https://github.com/jmfarthin/JFarthing-Portfolio.git
 - LinkedIn icon provided by LinkedIn
 - Calculater image by Pixabay: https://www.pexels.com/photo/scientific-calculator-on-wooden-surface-220301/
 - Password image by Miguel Á. Padriñán: https://www.pexels.com/photo/close-up-shot-of-keyboard-buttons-2882630/
-- Rubik's puzzle image by Pavel Danilyuk: https://www.pexels.com/photo/3d-rubik-s-cube-in-close-up-photography-7776206/
 
 ## License
 
